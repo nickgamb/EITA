@@ -165,7 +165,7 @@ To add a new data source:
 ```
 * Once the function to get the data into the the PostResults list is complete, add it to the DataSources class initialization so that it is called with the existing data source implementations.  
 ```
-		public DataSources()
+	public DataSources()
         {
             //Call data source implementations here
             GetTwitterResults();
